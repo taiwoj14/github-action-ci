@@ -1,4 +1,4 @@
-# GitHub Actions CI/CD Pipeline
+# GitHub Actions CI Pipeline
 
 ## Overview
 
@@ -41,6 +41,11 @@ github-action-ci/
 ├── pytest.ini
 ├── requirements.txt
 └── README.md
+
+```
+
+---
+
 ## Screenshots
 
 ### 1. Successful GitHub Actions Workflow
