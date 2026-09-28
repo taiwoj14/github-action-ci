@@ -29,3 +29,10 @@ jobs:
 
       - name: Run tests
         run: pytest
+
+      - name: Verify GitHub Secret
+        env:
+          DEMO_MESSAGE: ${{ secrets.DEMO_MESSAGE }}
+        run: |
+          echo "Secret is available to the workflow."
+          test -n "$DEMO_MESSAGE"
