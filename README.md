@@ -38,10 +38,13 @@ github-action-ci/
 │   └── calculator.py
 ├── tests/
 │   └── test_calculator.py
+├── screenshots/
+│   ├── github-actions-success.png
+│   ├── github-actions-tests.png
+│   └── github-actions-troubleshooting.png
 ├── pytest.ini
 ├── requirements.txt
 └── README.md
-
 ```
 
 ---
@@ -59,8 +62,6 @@ github-action-ci/
 ### 3. Troubleshooting — ModuleNotFoundError
 
 ![GitHub Actions Troubleshooting](screenshots/github-actions-troubleshooting.png)
-
-```
 
 ---
 
