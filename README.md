@@ -41,6 +41,20 @@ github-action-ci/
 ├── pytest.ini
 ├── requirements.txt
 └── README.md
+## Screenshots
+
+### 1. Successful GitHub Actions Workflow
+
+![GitHub Actions Success](screenshots/github-actions-success.png)
+
+### 2. Five Tests Passed
+
+![GitHub Actions Tests](screenshots/github-actions-tests.png)
+
+### 3. Troubleshooting — ModuleNotFoundError
+
+![GitHub Actions Troubleshooting](screenshots/github-actions-troubleshooting.png)
+
 ```
 
 ---
