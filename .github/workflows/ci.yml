@@ -42,3 +42,14 @@ jobs:
         run: |
           echo "Secret is available to the workflow."
           test -n "$DEMO_MESSAGE"
+
+  docker:
+    name: Build Docker Image
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -t github-action-ci:latest .
