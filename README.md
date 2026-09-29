@@ -1,5 +1,7 @@
 # GitHub Actions CI Pipeline
 
+![GitHub Actions CI](https://github.com/taiwoj14/github-action-ci/actions/workflows/ci.yml/badge.svg)
+
 ## Overview
 
 This project demonstrates the design and implementation of a Continuous Integration (CI) pipeline using GitHub Actions.
