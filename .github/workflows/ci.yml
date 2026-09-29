@@ -34,7 +34,13 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run tests
-        run: pytest
+        run: pytest --junitxml=test-results.xml
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results-python-${{ matrix.python-version }}
+          path: test-results.xml 
 
       - name: Verify GitHub Secret
         env:
